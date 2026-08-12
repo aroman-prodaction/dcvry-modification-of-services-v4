@@ -8,10 +8,10 @@ import {
   ExternalLink,
   MapPin,
   Minus,
+  PencilLine,
   Plus,
   RotateCcw,
   Trash2,
-  TriangleAlert,
   Users,
   X,
   Download,
@@ -983,7 +983,7 @@ function RoomServices({ state, act, mode }) {
 function FixedDateNotice() {
   return (
     <div className="fixed-date-notice">
-      <TriangleAlert className="fixed-date-notice-icon" aria-hidden="true" />
+      <PencilLine className="fixed-date-notice-icon" aria-hidden="true" />
       <span>
         Услуги на конкретную дату нельзя изменить напрямую&nbsp;— сначала удалите услугу, а&nbsp;затем добавьте её&nbsp;с&nbsp;нужными параметрами
       </span>
@@ -1095,7 +1095,7 @@ function PurchasedList({ state, act }) {
         act("go", { route: "services", serviceId, replace: true })
       }
     >
-      Выбрать другое время
+      Настроить заново
     </button>
   );
 
