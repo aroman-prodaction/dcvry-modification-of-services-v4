@@ -985,7 +985,7 @@ function FixedDateNotice() {
     <div className="fixed-date-notice">
       <PencilLine className="fixed-date-notice-icon" aria-hidden="true" />
       <span>
-        Услуги на конкретную дату нельзя изменить напрямую&nbsp;— сначала удалите услугу, а&nbsp;а затем настройте её заново
+        Услуги на конкретную дату нельзя изменить напрямую&nbsp;— сначала удалите услугу, &nbsp;а затем настройте её заново
       </span>
     </div>
   );
